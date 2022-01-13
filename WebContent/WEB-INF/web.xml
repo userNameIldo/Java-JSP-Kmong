@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>study</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+	<!-- 서블릿 회원가입 -->
+	
+	<servlet>
+		<servlet-name>memberServlet</servlet-name>
+		<servlet-class>com.join.MemberServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>memberServlet</servlet-name>
+		<url-pattern>/join/*</url-pattern>
+	</servlet-mapping>
+	
+  	<!-- EncodingFilter -->
+  	<filter>
+  		<filter-name>EncodingFilter</filter-name>
+  		<filter-class>com.filter.EncodingFilter</filter-class>
+  		<init-param>
+  			<param-name>charset</param-name>
+  			<param-value>utf-8</param-value>
+  		</init-param>
+  	</filter>
+  	<filter-mapping>
+  		<filter-name>EncodingFilter</filter-name>
+  		<url-pattern>/*</url-pattern>
+  	</filter-mapping>
+  	
+  	<!-- 로그인 필터 -->
+	<filter>
+  		<filter-name>loginFilter</filter-name>
+  		<filter-class>com.filter.LoginFilter</filter-class>
+  	</filter>
+  	<filter-mapping>
+  		<filter-name>loginFilter</filter-name>
+  		<url-pattern>/sbbs/*</url-pattern>
+  	</filter-mapping>
+  	
+  	<!-- ContextListenerTest -->
+  	<listener>
+ 		<listener-class>com.event.ContextListenerTest</listener-class>
+  		
+  	</listener>
+  	
+  	<!--  -->
+	<servlet>
+		<servlet-name>kmongServlet</servlet-name>
+		<servlet-class>com.kmlogin.KmmemberServlet</servlet-class>
+	</servlet>  	
+  	<servlet-mapping>
+  		<servlet-name>kmongServlet</servlet-name>
+  		<url-pattern>/kmoong/*</url-pattern>
+  	</servlet-mapping>
+  	
+  	<!--서블릿 이미지 업로드 셋팅 imageFile -->
+	<servlet>
+	    <servlet-name>imageServlet1</servlet-name>
+	    <servlet-class>com.imageFile.ImageFileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>imageServlet1</servlet-name>
+	    <url-pattern>/images/*</url-pattern>
+	</servlet-mapping>
+	
+	<!--  -->
+	
+	<servlet>
+	    <servlet-name>kmBoardServlet</servlet-name>
+	    <servlet-class>com.kmBoard.KmBoardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>kmBoardServlet</servlet-name>
+	    <url-pattern>/km/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>gesiServlet</servlet-name>
+		<servlet-class>com.gesipan.GesipanServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gesiServlet</servlet-name>
+		<url-pattern>/gesi/*</url-pattern>
+	</servlet-mapping>
+	
+
+</web-app>

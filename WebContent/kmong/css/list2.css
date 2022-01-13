@@ -1,0 +1,1365 @@
+@CHARSET "UTF-8";
+/*전체바디부분  */
+#bbsList {
+	width: 1200px;
+	margin: 30px auto;
+	text-align: left;
+}
+
+/*크몽로고 타이틀바  */
+#bbsList_title {
+	width: 1200px; /* 690px - (padding-left+border:3px+border:3px) */
+	height: 90px;
+	
+	text-align: left;
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 15pt;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+/* #greyrule hr{
+
+width: 90%;
+size : 2;
+margin-top : 20px;
+
+display: none;
+} */
+
+
+/*왼쪽 카테고리 구역전체  */
+#bbsList_category {
+	width: 216px; /* 690px - (padding-left+border:3px+border:3px) */
+	padding-left: 10px;	
+	float: left;
+	text-align: left;
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 15pt;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	position: relative;
+}
+
+/*디자인<구역 div  */
+#bbsList_decategory {
+	width: 200px;
+	height: 42.8px;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid #ffd400;
+	padding-bottom: 16px;
+	margin-bottom: 8px;
+}
+
+/*디자인<구역안 글자부분 div  */
+.bbsList_decategory1 {
+	width: 200px;
+	height: 24.8px;
+	padding-left: 10px;
+	float: left;
+	margin-bottom: 10px;
+	position: relative;
+	margin: 0;
+	font-weight: 500;
+	color: #303441;
+	font-size: 22px;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+/*정부지원사업외주<구역 div  */
+#bbsList_smcategory {
+	width: 200px;
+	height: 104px;
+	float: left;
+	margin-bottom: 10px;
+	position: relative;
+	text-decoration: none;
+	color: #116ad4;
+	cursor: pointer;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	background-color: transparent;
+}
+
+/*정부지원사업외주<이미지부분  */
+.bbsList_category_image {
+	width: 200px; /* 690px - (padding-left+border:3px+border:3px) */
+	height: 70px;
+	float: left;
+	font-weight: bold;
+	line-height: 40px;
+	margin: 16px 0;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	color: #116ad4;
+	cursor: pointer;
+}
+
+
+
+/*센터 전체부분  */
+#bbsList_category1 {
+	width: 910px; /* 690px - (padding-left+border:3px+border:3px) */
+	padding-left: 20px;
+	
+	float: left;
+	text-align: left;
+	font-weight: bold;
+	font-size: 15pt;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	margin-left: 20px;
+	position: relative;
+}
+
+
+#bbsList_category2 {
+	width: 890px; /* 690px - (padding-left+border:3px+border:3px) */
+	padding-left: 20px;	
+	float: left;
+	text-align: left;
+	font-weight: bold;
+	font-size: 15pt;
+	margin-top:5px;
+	margin-left:-15px;
+	position: relative;
+}
+a{
+
+	text-decoration: none;
+
+}
+#bbsList_category3 {
+	width: 258px; /* 690px - (padding-left+border:3px+border:3px) */
+	padding-left: 20px;
+	height: 300px;
+	float: left;
+	text-align: left;
+	font-weight: bold;
+	font-size: 15pt;
+	margin-top:5px;
+	margin-left:0px;
+	margin-right:5px;
+	
+	position: relative;
+}
+
+#bbsList_category4 {
+	width: 238px; /* 690px - (padding-left+border:3px+border:3px) */
+	padding-left: 20px;
+	float: left;
+	text-align: left;
+	font-weight: bold;
+	font-size: 15pt;
+	margin-top:5px;
+	margin-left:-15px;
+	margin-right:5px;
+	position: relative;
+}
+
+
+#bbsList_category5 {
+	width: 238px; /* 690px - (padding-left+border:3px+border:3px) */
+	padding-left: 20px;
+	float: right;
+	text-align: left;
+	font-weight: bold;
+	font-size: 10pt;
+	margin-top:15px;
+	margin-left:-15px;
+	margin-right:5px;
+	position: relative;
+	
+}
+
+#bbsList_pagenum{
+	text-align: center;
+	
+	
+}
+/*회색실선  */
+#greyrule {
+	width: 100%;
+	background-color: grey;
+}
+
+
+#bbsList_header {
+	height: 48px;
+	margin-bottom: 10px;
+	
+}
+
+#bbsList_header #leftHeader {
+	float: left;
+	width: 345px;
+	text-align: left;
+}
+
+#bbsList_header #rightHeader {
+	float: right;
+	width: 345px;
+	text-align: right;
+}
+
+#bbsList_header .selectFiled {
+	border: 1px solid;
+	border-color: #666666;
+	background-color: #ffffff;
+	font-family: 굴림;
+	font-size: 9pt;
+}
+
+#bbsList_header .textFiled {
+	border: 1px solid;
+	height: 13px;
+	padding: 2px 2px 2px 2px;
+	border-color: #666666;
+	background-color: #ffffff;
+	font-family: "굴림";
+	font-size: 9pt;
+}
+
+#bbsList_list {
+	clear: both;
+}
+
+#bbsList_list dd {
+	float: left;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+}
+
+#bbsList_list #title {
+	height: 30px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #E6E4E6;
+}
+
+#bbsList_list #title dl {
+	height: 27px;
+	border-left: 0px solid #5db062;
+	border-right: 0px solid #5db062;
+}
+
+#bbsList_list #title dt {
+	float: left;
+	line-height: 34px;
+	text-align: center;
+}
+
+#bbsList_list .num {
+	width: 50px;
+}
+
+#bbsList_list .subject {
+	width: 420px;
+}
+
+#bbsList_list .name {
+	width: 90px;
+}
+
+#bbsList_list .created {
+	width: 65px;
+}
+
+#bbsList_list .hitCount {
+	width: 60px;
+}
+
+#bbsList_list #lists {
+	clear: both;
+}
+
+#bbsList_list #lists dl {
+	float: left;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+#bbsList_list dd.subject {
+	width: 410px;
+	margin-left: 10px;
+	text-align: left;
+}
+
+#bbsList_list a {
+	line-height: 27px;
+}
+
+#bbsList_list #footer {
+	clear: both;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 5px;
+	text-align: center;
+	
+	position: relative;
+	float: left;
+}
+
+/*센터아래 footer부분 전체  */
+#bbsList_footer {
+	clear: both;
+	width: 1200px;
+	height: 480.2px;
+	
+	display: block;
+}
+
+/*footer 부분 실선  */
+.bbs_footer_hr {
+	height: 1px;
+	margin: 0;
+	border: none;
+	flex-shrink: 0;
+	background-color: rgba(0, 0, 0, 0.12);
+	box-sizing: content-box;
+	overflow: visible;
+	font-family: 'Metro Sans', sans-serif;
+	display: block;
+	unicode-bidi: isolate;
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
+	margin-inline-start: auto;
+	margin-inline-end: auto;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*footer부분 안드로이드 아이콘 부분아래 실선 위 까지의 구역  */
+#bbsList_mainfooter {
+	width: 1200px;
+	height: 299.6px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	max-width: 1280px;
+	flex-direction: column;
+	display: flex;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+/*고객센터,크몽 라인전체 구역  */
+#bbsList_mainfooter_1 {
+	padding-top: 32px;
+	padding-bottom: 16px;
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	flex-direction: row;
+	-webkit-box-pack: justify;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*고객센터1544-6251 <전체구역  */
+#bbsList_mainfooter_1_1 {
+	width: 305.625px;
+	height: 177.6px;
+	padding-left: 16px;
+	padding-right: 16px;
+	flex: auto;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	display: block;
+	-webkit-text-size-adjust: 100%;
+	padding-right: 16px;
+}
+
+/*고객센터 1544-6254<글자 구역  */
+.bbsList_mainfooter_1_p {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+	line-height: 1.5;
+	letter-spacing: -0.34px;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	-webkit-text-size-adjust: 100%;
+}
+/*10:30~18:00 점심시간, 주말공휴일휴무< 글자 구역  */
+.bbsList_mainfooter_1_p_1 {
+	font-size: 13px;
+	line-height: 2;
+	letter-spacing: -0.28px;
+	color: #9a9ba7;
+	margin: 0;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*1:1문의 버튼  */
+.bbsList_mainfooter_1_2 {
+	height: 36px;
+	outline: none;
+	border-width: 1px;
+	border-style: solid;
+	box-sizing: border-box;
+	border-radius: 4px;
+	line-height: 1;
+	font-weight: 500;
+	transition: background-color 0.3s, border-color 0.3s;
+	text-decoration: none;
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	cursor: pointer;
+	position: relative;
+	user-select: none;
+	white-space: nowrap;
+	max-width: 100%;
+	font-size: 14px;
+	padding: 0 16px;
+	min-width: 64px;
+	background-color: #ffffff;
+	border-color: #c8cad2;
+	color: #303441;
+	margin-top: 16px;
+	border: 1px solid #555969;
+	font-family: 'Metro Sans', sans-serif;
+	width: 42.75px;
+}
+
+/*1:1문의 <글자 구역  */
+.bbsList_mainfooter_1_2_1 {
+	width: 42.75px;
+	height: 13.6ppx;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	line-height: 1;
+	font-weight: 500;
+	cursor: pointer;
+	user-select: none;
+	white-space: nowrap;
+	font-size: 14px;
+	color: #303441;
+	-webkit-text-size-adjust: 100%;
+}
+/*footer 크몽<전체부분  */
+#bbsList_mainfooter_2_1 {
+	width: 205.6px;
+	height: 177.6px;
+	padding-left: 16px;
+	padding-right: 16px;
+	-webkit-flex: auto;
+	-ms-flex: auto;
+	flex: auto;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	display: block;
+	-webkit-text-size-adjust: 100%;
+	padding-left: 16px;
+}
+
+/*크몽<글자 부분  */
+.bbsList_mainfooter_2_p {
+	width: 173.6px;
+	height: 21.6px;
+	margin: 0 0 16px 0;
+	font-weight: 700;
+	font-size: 0.875rem;
+	line-height: 1.57;
+	color: #212224;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	-webkit-text-size-adjust: 100%;
+	margin: 0 0 16px 0;
+}
+
+/* 크몽아래 마켓,마켓prime,맞춤견적,엔터프라이즈 전체부분 */
+.bbsList_mainfooter_2_p_1 {
+	width: 173px;
+	height: 20px;
+	font-family: "Metro Sans", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	font-size: 0.875rem;
+	line-height: 1.43;
+	margin: 0;
+	color: #555969;
+	text-align: inherit;
+	margin-bottom: 8px;
+	box-sizing: border-box;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-family: "Metro Sans", "Helvetica", "Arial", sans-serif;
+}
+
+/*크몽아래 마켓,마켓prime,맞춤견적,엔터프라이즈<글자부분  */
+.bbsList_mainfooter_2_p_2 {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	background-color: transparent;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	font-weight: 400;
+	font-size: 0.875rem;
+	line-height: 1.43;
+	text-align: inherit;
+	-webkit-text-size-adjust: 100%;
+}
+
+
+/*아이콘바 구역 전체부분  */
+.bbsList_mainfooter_3 {
+	width: 1200px;
+	height: 74px;
+	justify-content: flex-end;
+	padding: 16px 128px;
+	display: flex;
+	-webkit-box-pack: end;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*구글 아이콘바 전체구역  */
+.bbsList_mainfooter_3_google {
+	width: 158.38px;
+	height: 42px;
+	margin-right: 8px;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	display: block;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*구글 아이콘바 내부구역  */
+.bbsList_mainfooter_3_ingoogle {
+	outline: none;
+	border-width: 1px;
+	border-style: solid;
+	box-sizing: border-box;
+	border-radius: 4px;
+	line-height: 1;
+	font-weight: 500;
+	transition: background-color 0.3s, border-color 0.3s;
+	text-decoration: none;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	cursor: pointer;
+	position: relative;
+	user-select: none;
+	white-space: nowrap;
+	width: 100%;
+	max-width: 100%;
+	height: 42px;
+	font-size: 15px;
+	padding: 0 22px;
+	min-width: 64px;
+	background-color: #ffffff;
+	border-color: #c8cad2;
+	color: #303441;
+	border: 1px solid #303441;
+	font-family: 'Metro Sans', sans-serif;
+}
+
+
+/*구글 아이콘바 아이콘부분  */
+.bbsList_mainfooter_3_googleicon {
+	margin-left: -5px;
+	margin-right: 6px;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	line-height: 1;
+	font-weight: 500;
+	cursor: pointer;
+	user-select: none;
+	white-space: nowrap;
+	font-size: 15px;
+	color: #303441;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*구글 아이콘바 구글 글자부분  */
+.bbsList_mainfooter_3_googlespell {
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	line-height: 1;
+	font-weight: 500;
+	cursor: pointer;
+	user-select: none;
+	white-space: nowrap;
+	font-size: 15px;
+	color: #303441;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*(주)크몽 라인 전체구역   */
+#bbsList_mainfooter_4 {
+	width: 1200px;
+	height: 24px;
+	max-width: 1200px;
+	text-align: center;
+	margin: 16px auto 0 auto;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	display: block;
+	-webkit-text-size-adjust: 100%;
+	max-width: 1200px;
+}
+
+/*(주)크몽<글자라인 전체부분  */
+.bbsList_mainfooter_4_1 {
+	font-family: "Metro Sans", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	line-height: 1.43;
+	margin: 0;
+	color: #303441;
+	text-align: inherit;
+	font-size: 13px;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*(주)크몽 | 서울시의 '|'부분  */
+.bbsList_mainfooter_4_2 {
+	margin: 0 4px;
+	font-size: 14px;
+	color: #303441;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	font-weight: 400;
+	line-height: 1.43;
+	text-align: inherit;
+	-webkit-text-size-adjust: 100%;
+	content: '|';
+}
+
+.bbsList_mainfooter_4_2 after {
+	content: '|';
+}
+
+/*사업자 정보확인버튼 글자부분  */
+.bbsList_mainfooter_4_3 {
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	line-height: 1;
+	font-weight: 500;
+	cursor: pointer;
+	user-select: none;
+	white-space: nowrap;
+	font-size: 12px;
+	color: #303441;
+	text-align: inherit;
+	-webkit-text-size-adjust: 100%;
+}
+/*사업자 정보확인 버튼 전체부분  */
+.bbsList_mainfooter_4_4 {
+	outline: none;
+	border-width: 1px;
+	border-style: solid;
+	box-sizing: border-box;
+	border-radius: 4px;
+	line-height: 1;
+	font-weight: 500;
+	transition: background-color 0.3s, border-color 0.3s;
+	text-decoration: none;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	cursor: pointer;
+	position: relative;
+	user-select: none;
+	white-space: nowrap;
+	max-width: 100%;
+	height: 24px;
+	font-size: 12px;
+	padding: 0 8px;
+	min-width: 48px;
+	background-color: #ffffff;
+	border-color: #c8cad2;
+	color: #303441;
+	margin-left: 8px;
+	font-family: 'Metro Sans', sans-serif;
+	text-align: inherit;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*(주)크몽은 통신판매중개자~ 부분 전체구역  */
+.bbsList_mainfooter_5 {
+	width: 1200px;
+	height: 113.6px;
+	padding: 16px;
+	cursor: pointer;
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	display: block;
+	-webkit-text-size-adjust: 100%;
+	padding: 16px;
+}
+
+
+/*(주)크몽은 통신판매중개자~라인 글자 부분  */
+.bbsList_mainfooter_5_1 {
+	font-family: "Metro Sans", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	font-size: 0.75rem;
+	line-height: 1.66;
+	margin: 0;
+	text-align: inherit;
+	color: #9a9ba7;
+	box-sizing: border-box;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	cursor: pointer;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*Copyright<라인 전체부분  */
+.bbsList_mainfooter_5_2 {
+	width: 1168px;
+	height: 19.2px; margin : 16px 0 8px 0;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	display: block;
+	cursor: pointer;
+	text-align: center;
+	-webkit-text-size-adjust: 100%;
+	margin: 16px 0 8px 0;
+}
+/*Copyright글자 라인 전체부분  */
+.bbsList_mainfooter_5_3 {
+	font-family: "Metro Sans", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	font-size: 0.75rem;
+	line-height: 1.66;
+	margin: 0;
+	text-align: inherit;
+	color: #c8cad2;
+	box-sizing: border-box;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	cursor: pointer;
+	-webkit-text-size-adjust: 100%;
+}
+
+#category_left {
+	font-size: 12pt;
+	font-family: "나눔고딕";
+	position: relative;
+}
+
+#category_left1 {
+	width: 200px;
+	height: 805px;
+	box-sizing: border-box;
+	display: block;
+	box-sizing: border-box;
+}
+
+/*디자인<부터  북 파견 상주<까지부분 전체*/
+#category_left1_1 {
+	width: 200px;
+	height: 800px;
+	padding: 8px;
+	box-sizing: border-box;
+	display: block;
+}
+
+/*로고,브랜딩 화살표바 전체부분  */
+.category_left1_1_1 {
+	align-items: center;
+	height: 32px;
+	line-height: 32px;
+	-webkit-box-align: center;
+	display: flex;
+	font-family: 'Metro Sans', sans-serif;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*왼쪽 카테고리 로고,브랜딩<글자부분  */
+.category_left1_1_1_1 {
+	width: 168px;
+	height: 32px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #555969;
+	flex: 1 1 auto;
+	text-decoration: none;
+	position: relative;
+	line-height: 32px;
+	background-color: transparent;
+	font-family: '나눔고딕';
+	box-sizing: border-box;
+}
+
+.category_left1_1_1_1 div:hover {
+	font-weight: bold;
+	font-family: "";
+	cursor: pointer;
+}
+
+.category_left1_1_1_2 {
+	
+}
+
+
+.searchform{
+	margin: 0 16px;
+	display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 240px;
+    transition: max-width 0.2s ease-in-out;
+    position: relative;
+    font-family: 'Metro Sans',sans-serif;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+   
+    
+}
+
+.searchform1{
+	
+	    width: 240px;
+    border: 1px solid #c8cad2;
+    border-radius: 4px;
+        transition: background-color 0.2s,border-color 0.2s;
+        display: inline-flex;
+          flex-direction: row;
+    overflow: hidden;
+    cursor: text;
+    background-color: #ffffff;
+    color: #303441;
+    height: 42px;
+    font-size: 15px;
+    padding: 0 14px;
+    min-width: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'Metro Sans',sans-serif;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    margin-top: 10px;
+    
+	  
+}
+
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  float: left;
+}
+
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd; }
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+	
+	background-color: white;
+	border-bottom: 2px solid yellow;
+	
+}
+
+
+
+
+
+.divdiv{
+	position: relative;
+}
+
+
+#menu {
+
+    height: 50px;
+
+    background: #fcc;
+
+}
+
+
+
+.main1 {
+
+    width: 600px;
+
+    height: 100%;
+
+    margin: 0 auto;
+
+}
+
+
+
+.main1>li {
+
+    float: left;
+
+    width: 25%;
+
+    line-height: 50px;
+
+    text-align: center;
+
+    position: relative;
+
+}
+
+
+
+.main1>li:hover .main2 {
+
+    left: 0;
+
+}
+
+
+
+.main1>li a {
+
+    display: block;
+
+}
+
+
+
+.main1>li a:hover {
+
+    background: #B21016;
+
+    color: #fff;
+
+    font-weight: bold;
+
+}
+
+
+
+.main2 {
+
+    position: absolute;
+
+    top: 50px;
+
+    left: -9999px;
+
+    background: #ccc;
+
+    width: 120%;
+
+}
+
+
+
+.main2>li {
+
+    position: relative;
+
+}
+
+
+
+.main2>li:hover .main3 {
+
+    left: 100%;
+
+}
+
+
+
+.main2>li a, .main3>li a {
+
+    border-radius: 10px;
+
+    margin: 10px;
+
+}
+
+
+
+.main3 {
+
+    position: absolute;
+
+    top: 0;
+
+    background: #6BD089;
+
+    width: 80%;
+
+    left: -9999px;
+
+    /*left: 100%;*/
+
+    /*display: none;*/
+
+}
+
+
+
+.main3>li a:hover {
+
+    background: #085820;
+
+    color: #fff;
+
+}
+
+.dropbtn_1 {
+  outline: none;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    line-height: 1;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    white-space: nowrap;
+    max-width: 100%;
+    height: 42px;
+    font-size: 15px;
+    min-width: 42px;
+    padding: 0;
+    border-radius: 21px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #303441;
+}
+
+#bbsList_sub3 {
+	text-decoration: none;
+    cursor: pointer;
+    color: #303441;
+    padding: 14px 0 11px 0;
+    width: 46.5px;
+    font-family: 'Metro Sans',sans-serif;
+    box-sizing: border-box;
+}
+a{
+	background-color: transparent;
+}
+
+.footer_menu_bottom{
+	display: flex; 
+	justify-content: flex-end;
+	padding-top: 16px;
+    padding-right: 128px;
+    padding-bottom: 16px;
+    padding-left: 128px;
+}
+.footer_menu_link2{
+	    margin-right: 8px;
+}
+
+.footer_menu_link2_1{
+	outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    
+    box-sizing: border-box;
+    
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+    line-height: 1;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+        max-width: 100%;
+    height: 42px;
+    font-size: 15px;
+    
+    padding-top: 0px;
+    padding-right: 22px;
+    padding-bottom: 0px;
+    padding-left: 22px;
+    
+    min-width: 64px;
+    background-color: #ffffff;
+    
+    border-top-color: rgb(48, 52, 65);
+    border-right-color: rgb(48, 52, 65);
+    border-bottom-color: rgb(48, 52, 65);
+    border-left-color: rgb(48, 52, 65);
+    
+    color: #303441;
+    border: 1px solid #303441;
+}
+
+
+
+.footer_menu_link2_2{
+	margin-left: -5px;
+    margin-right: 6px;
+}
+
+
+.footer_menu_link2_3{
+	line-height: 1;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
+    color: #303441;
+}
+
+.footer_link1{
+	
+	outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+	
+	border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    
+    box-sizing: border-box;
+    
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+    line-height: 1;
+    font-weight: 500;
+    
+    display: inline-flex;
+        
+    align-items: center;
+    
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    
+    white-space: nowrap;
+    max-width: 100%;
+    height: 36px;
+    font-size: 14px;
+    
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    
+    min-width: 64px;
+    background-color: #ffffff;
+    
+    border-top-color: rgb(85, 89, 105);
+    border-right-color: rgb(85, 89, 105);
+    border-bottom-color: rgb(85, 89, 105);
+    border-left-color: rgb(85, 89, 105);
+    
+    color: #303441;
+    margin-top: 16px;
+    
+    border-top-color: rgb(85, 89, 105);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(85, 89, 105);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(85, 89, 105);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(85, 89, 105);
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+.footer_link1_1{
+	line-height: 1;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #303441;
+}
+
+.css_wnakf {
+	width: 944px;
+	height: 91px;
+	border: 1px solid #e4e5ed;
+	margin-top: 16px;
+}
+* {
+	
+    font-family: 'Metro Sans',sans-serif;
+    box-sizing: border-box;
+}
+section {
+	display: block;
+}
+
+.css_weekendimp {
+	cursor: default;
+    font-size: 14px;
+    font-weight: 500;
+    flex-basis: 168px;
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 12px 12px 20px;
+    background-color: #fafafc;
+    border-right: 1px solid #e4e5ed;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: 'Metro Sans',sans-serif;
+    box-sizing: border-box;
+}
+.css_weekendarea {
+	min-height: 44px;
+	display: flex;
+    font-size: 13px;
+    flex: 1;
+    padding: 3px 12px;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Metro Sans',sans-serif;
+    box-sizing: border-box;
+	
+}
+
+.css_weekendbut {
+	outline: none;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    transition: background-color 0.3s,border-color 0.3s;
+    text-decoration: none;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: auto;
+    height: 24px;
+    font-weight: 400;
+    position: relative;
+    margin: 6px 12px 6px 0;
+    line-height: 24px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 15px;
+    color: #303441;
+    background-color: #fff;
+    font-size: 13px;
+    font-family: 'Metro Sans',sans-serif;
+    box-sizing: border-box;
+}
+
+.css_weekendbut2 {
+	display: none;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: #fafafc;
+    border-radius: 50%;
+    border: 1px solid #e4e5ed;
+    transform: scale(0.8);
+  	font-family: 'Metro Sans',sans-serif;
+    box-sizing: border-box;
+}

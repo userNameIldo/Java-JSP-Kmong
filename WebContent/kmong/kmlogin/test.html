@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+
+	margin:0px;
+	padding: 0px;
+
+}
+*{
+	margin:auto;
+
+}
+#find_header{
+
+	width: 100%;
+    height: 59px;
+    background-color: #ffd400;
+
+}
+#find_wrap{
+	
+	width: 300px;
+	height: 900px;
+	
+}
+
+</style>
+</head>
+<body>
+<div id="find_header">
+	<a href="<%=cp%>"><img src="https://d2v80xjmx68n4w.cloudfront.net/assets/desktop/pages/main/kmong_logo.png" style="width: 105px; padding-top: 15px; padding-left: 40px;"></a>
+</div>
+<div id="find_wrap">
+	<div id="find_title">
+		아이디/비밀번호 찾기
+	</div>
+	<form action="" method="post" name="IdForm">
+	<div id="find_Id">
+		<div id = "">
+			아이디 찾기
+		</div>
+		<div id = "">
+			<input type="text" name="userName">
+		</div>
+		<div id="">
+			<input type="text" name="userTel">
+		</div>
+		<div>
+			본인인증 받으신 정보를 입력해 주세요. 휴대폰 번호로 아이디(이메일 주소)를 보내드립니다.
+		</div>
+		<div id = "">
+		
+			<input type="button" value="아이디(이메일 주소)전송" onclick="findId();">
+		</div>
+	</div>
+	</form>
+	<form action="" method="post" name="PwdForm">
+	<div id="find_Pwd">
+		<div id = "">
+			비밀번호 찾기
+		</div>
+		<div id = "">
+			<input type="text" name="userId">
+		</div>
+		<div>
+			가입시 등록하신 이메일 주소를 입력해 주세요. 비밀번호 재 설정 링크를 보내드립니다.		
+		</div>
+		<div id = "">
+			<input type="button" value="비밀번호 변경 URL 전송" onclick="findPwd();">
+		</div>
+	</div>
+	</form>
+	<div id="">
+	<span>로그인</span>
+	<span>무료회원가입</span>
+	</div>
+	<div id="">
+		copyright 2021kmong Inc.Allrights reserverd.
+	</div>
+</div>
+
+</body>
+</html>
